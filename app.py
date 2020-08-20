@@ -54,9 +54,23 @@ for letter in tuple_example:
 # Dictionaries
 
 # create a dict
-dict_example = {'name': 'test'}
+dict_example = {'name': 'test', 'age': 28}
 
 # Access dict value
 name_val = dict_example['name']
 
-print(name_val)
+# Assign new value
+dict_example['name'] = 'Bob'
+
+# Add new key
+dict_example['greeting'] = 'hello'
+
+# Get dict keys
+keys = dict_example.keys()
+
+# Get dict values
+vals = dict_example.values()
+
+# Iterate through dict
+for keys, values in dict_example.items():
+    print('%s is %s' % (keys, str(values)))
