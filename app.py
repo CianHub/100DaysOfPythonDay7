@@ -1,8 +1,6 @@
 # Lists
 numList = [1, 2, 3, 4, 5]
 
-# List methods
-
 # Reverse list
 numList.reverse()
 
@@ -40,3 +38,25 @@ str_to_list.pop(0)
 
 # Add a new value to the end
 str_to_list.append('a')
+
+# Tuples
+
+# create a tuple
+tuple_example = tuple(str_to_list)
+
+# Access values in Tuple
+first_val = tuple_example[0]
+
+# Iterate over tuple
+for letter in tuple_example:
+    str(letter)
+
+# Dictionaries
+
+# create a dict
+dict_example = {'name': 'test'}
+
+# Access dict value
+name_val = dict_example['name']
+
+print(name_val)
